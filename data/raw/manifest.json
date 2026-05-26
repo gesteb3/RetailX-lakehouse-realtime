@@ -1,0 +1,27 @@
+{
+    "project": "RetailX Lakehouse Real-Time",
+    "generated_at_utc": "2026-05-26T22:45:06.619484+00:00",
+    "datasets": [
+        {
+            "name": "ventas",
+            "format": "csv",
+            "path": "data/raw/csv/ventas",
+            "rows": 1000000,
+            "description": "Transacciones simuladas de ERP/POS para análisis Lakehouse."
+        },
+        {
+            "name": "web_events",
+            "format": "json",
+            "path": "data/raw/json/web_events",
+            "rows": 250000,
+            "description": "Eventos semiestructurados de Web/API."
+        },
+        {
+            "name": "productos",
+            "format": "xml",
+            "path": "data/raw/xml/productos.xml",
+            "rows": 2000,
+            "description": "Catálogo maestro de productos en XML."
+        }
+    ]
+}

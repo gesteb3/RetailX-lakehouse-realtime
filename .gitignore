@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Logs
+logs/*.log
+*.log
+
+# Spark / Delta
+*.crc
+_SUCCESS
+_committed_*
+_started_*
+.metadata/
+.checkpoint/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data generated
+data/raw/csv/ventas/
+data/raw/json/web_events/
+data/raw/xml/*.xml
+data/bronze/
+data/silver/
+data/gold/
+data/powerbi/
+data/checkpoints/
+
+# OS / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
