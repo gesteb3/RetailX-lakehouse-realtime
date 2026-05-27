@@ -1,6 +1,6 @@
 # RetailX Lakehouse Real-Time
 
-Proyecto final de ingeniería de datos basado en una arquitectura Lakehouse con procesamiento batch y streaming en tiempo real.
+Arquitectura Lakehouse con procesamiento batch y streaming en tiempo real.
 
 La solución integra Apache Spark, Delta Lake, Kafka, Python y salidas optimizadas para Power BI. El objetivo es simular una plataforma analítica empresarial para RetailX, capaz de procesar ventas históricas, eventos web y eventos GPS de camiones en tiempo real.
 
